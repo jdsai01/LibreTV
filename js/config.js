@@ -81,10 +81,7 @@ const API_SITES = {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
     },
-    mdzy: {
-        api: 'https://www.mdzyapi.com/api.php/provide/vod',
-        name: '魔都资源',
-    },
+    
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
@@ -125,6 +122,11 @@ const API_SITES = {
     ckzy: {
         api: 'https://www.ckzy1.com/api.php/provide/vod',
         name: 'CK资源',
+        adult: true
+    },
+    mdzy: {
+        api: 'https://www.mdzyapi.com/api.php/provide/vod',
+        name: '魔都资源',
         adult: true
     },
     jkun: {
